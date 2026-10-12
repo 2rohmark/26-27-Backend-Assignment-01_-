@@ -15,6 +15,5 @@ public record PerformancekrResponse (
 ) {
     public PerformancekrResponse(Performancekr performancekr) {
         this(performancekr.getId(), performancekr.getName(), performancekr.getVenue(), performancekr.getGuest(), performancekr.getStartDate(), performancekr.getEndDate());
-
     }
 }
