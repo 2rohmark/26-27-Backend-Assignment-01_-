@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import com.gdg.restapi.domain.Performancekr;
 import java.time.LocalDate;
 
-@JsonPropertyOrder({ "id", "name", "venue","guest","date" })
+@JsonPropertyOrder({ "id", "name", "venue","guest","starDate","endDate" })
 public record PerformancekrResponse (
         Long id,// 고유번호
         String name,// 아티스트
